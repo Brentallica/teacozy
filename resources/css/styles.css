@@ -9,8 +9,8 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 /*  Header styles  */
@@ -51,9 +51,11 @@ body {
   height: 700px;
   width: 1200px;
   margin: 0 auto;
+  padding-top: 70px;
   background-image: url("../../resources/images/img-mission-background.jpg");
-  position: relative;
-  top: 71px;
+  background-size: cover;
+  /* position: relative;
+  top: 71px; */
 }
 
 .missionbanner {
@@ -62,3 +64,32 @@ body {
 }
 
 /*  Tea Selection styles  */
+
+.teascontainer {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.tearow {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  justify-content: center;
+}
+
+.teaitem {
+  display: flex;
+  flex-direction: column;
+}
+
+.teaitem img {
+  height: 200px;
+  width: 300px;
+  margin: 0 10px;
+}
+
+.teaitem h4 {
+  margin-top: 10px;
+}
