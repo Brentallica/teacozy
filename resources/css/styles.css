@@ -9,8 +9,6 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  /* display: flex;
-  flex-direction: column; */
 }
 
 /*  Header styles  */
@@ -54,8 +52,6 @@ body {
   padding-top: 70px;
   background-image: url("../../resources/images/img-mission-background.jpg");
   background-size: cover;
-  /* position: relative;
-  top: 71px; */
 }
 
 .missionbanner {
@@ -92,4 +88,36 @@ body {
 
 .teaitem h4 {
   margin-top: 10px;
+}
+
+/*  Location section styles  */
+
+.locationscontainer {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  background-size: auto;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.locationscontainer h2 {
+  margin-bottom: 15px;
+}
+
+.locationrow {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  justify-content: center;
+}
+
+.locationdetail {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: black;
+  margin: 0 20px;
 }
