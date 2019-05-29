@@ -121,3 +121,15 @@ body {
   background-color: black;
   margin: 0 20px;
 }
+
+/*  Footer styles  */
+
+.footer {
+  height: 200px;
+  margin: 0 auto;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
