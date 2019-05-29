@@ -1,0 +1,39 @@
+/*  Universal stylings */
+
+body {
+  font-family: helvetica,sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/*  Header styles  */
+
+.headercontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.navigationbar a {
+  color: seashell;
+  padding-right: 30px;
+}
+
+/*  Mission section styles  */
