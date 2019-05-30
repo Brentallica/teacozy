@@ -61,6 +61,10 @@ body {
 
 /*  Tea Selection styles  */
 
+#teas {
+    padding-top: 70px;
+}
+
 .teascontainer {
   display: flex;
   flex-direction: column;
@@ -92,6 +96,10 @@ body {
 
 /*  Location section styles  */
 
+#locations {
+  padding-top: 70px;
+}
+
 .locationscontainer {
   display: flex;
   flex-direction: column;
@@ -121,8 +129,6 @@ body {
   background-color: black;
   margin: 0 20px;
 }
-
-/*  Footer styles  */
 
 .footer {
   height: 200px;
